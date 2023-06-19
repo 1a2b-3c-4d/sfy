@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1" charset="utf-8"/>
+ <link rel="icon" type="image/png" sizes="72x72" href="images/icon.png"/>
+<title>XL Html</title>
+<h2>登录</h2>
+<style>
+input{
+  /*设置密码输入框属性*/
+  width:70%;
+  height:35px;
+  border:#f50 1px solid;
+  }
+#dl{
+  /*设置确定按钮熟悉*/
+  width:70%;
+  height:40px;
+  border:white 1px solid;
+  background-color:#f50;
+  color:White;
+  }
+</style>
+<script>
+function input(){
+  /*获取密码框输入内容*/
+  var ps=document.getElementById("mmm").value;
+  if(ps==""||ps==null){
+    /*输入为空*/
+    alert("请输入");
+    }
+  else if(ps=="640153870"){
+    /*输入正确，密码可自定义*/
+    window.location.href="a.html";
+    }
+ else if(ps=="553977038"){
+    /*输入正确，密码可自定义*/
+    window.location.href="a.html";
+    }
+  else{
+    /*密码错误*/
+    alert("错误")
+    }
+  }
+</script>
+</head>
+<body align="center" White="300">
+
+<br><br><br>
+<form>
+<input type="yh" placeholder="输入密码" id="mmm"><br><br>
+<input type="button" id="dl" value="确定" onclick="input()">
+</form>
+
+</body>
+</html>
